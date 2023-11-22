@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/addComidaFragment"
-        android:name="com.example.macrofit.ui.searchfood.AddComidaFragment"
+        android:name="com.example.macrofit.ui.searchfood.SearchFoodFragmentFragment"
         android:label="fragment_add_comida"
         tools:layout="@layout/fragment_add_comida" >
         <action

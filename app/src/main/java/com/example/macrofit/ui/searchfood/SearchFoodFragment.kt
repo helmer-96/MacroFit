@@ -12,7 +12,6 @@ import androidx.appcompat.widget.SearchView
 import androidx.compose.ui.platform.ComposeView
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
-import androidx.navigation.findNavController
 import com.example.macrofit.R
 import com.example.macrofit.ui.MainActivity
 import com.example.macrofit.ui.searchfood.compose.SearchFoodFragmentView
@@ -21,7 +20,7 @@ import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
 
 
-class AddComidaFragment : Fragment() {
+class SearchFoodFragmentFragment : Fragment() {
     private lateinit var searchView: SearchView
     private val viewModel by viewModels<SearFoodViewModel>()
 

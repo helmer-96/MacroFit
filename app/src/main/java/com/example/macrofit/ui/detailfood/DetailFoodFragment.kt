@@ -110,5 +110,5 @@ fun DetailFoodFragmentView() {
 @Preview(showSystemUi = true)
 @Composable
 private fun DetailFoodPreview() {
-    DetailFoodFragment()
+    DetailFoodFragmentView()
 }
